@@ -12,7 +12,10 @@ public class DossierSecurityConfiguration extends WebSecurityConfigurerAdapter {
 		// @formatter:off
 		http.cors().and().csrf().disable()
 			.authorizeRequests()
-			.antMatchers("/").permitAll();
+			.antMatchers("/**").permitAll();
+		
+		//it needs for h2 console - http://javasampleapproach.com/spring-framework/spring-security/configure-spring-security-access-h2-database-console-spring-boot-project
+		http.headers().frameOptions().disable();
 		// @formatter:on
     }
 }
