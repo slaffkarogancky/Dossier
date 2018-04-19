@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ActiveProfiles("h2,jpa")
-public class JpaSimpleEntityServiceTest extends SimpleEntityServiceTest{
+@ActiveProfiles("h2,jpa-data")
+public class JpaDataSimpleEntityServiceTest extends SimpleEntityServiceTest{
 
 }

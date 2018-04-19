@@ -48,9 +48,9 @@ public abstract class SimpleEntityServiceTest {
 		assertEquals(list.get(3).getDescription(), "гиппопотам");
 		assertEquals(list.get(4).getDescription(), "дельфин");
 		
-		List<SimpleEntity> a = service.getAll(0, 3);
-		List<SimpleEntity> aa = service.getAll(1, 3);
-		List<SimpleEntity> aaa = service.getAll(2, 3);
+		//List<SimpleEntity> a = service.getAll(0, 3);
+		//List<SimpleEntity> aa = service.getAll(1, 3);
+		//List<SimpleEntity> aaa = service.getAll(2, 3);
 		
 		list = service.getAll(4, 3);
 		assertTrue(list.size() == 3);	

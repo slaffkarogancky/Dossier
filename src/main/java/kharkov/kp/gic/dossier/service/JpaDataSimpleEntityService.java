@@ -15,7 +15,7 @@ import kharkov.kp.gic.dossier.repository.SimpleEntityRepository;
 
 @Service
 @Transactional
-@Profile("jpa")
+@Profile("jpa-data")
 public class JpaDataSimpleEntityService implements SimpleEntityService {
 
 	@Autowired
