@@ -26,6 +26,6 @@ public interface SimpleEntityService {
 	
 	void deleteByName(String substr);
 	
-	
+	String whoAmI();
 	
 }
